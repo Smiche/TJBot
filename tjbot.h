@@ -17,6 +17,7 @@
 #elif _WIN32
 #include <windows.h>
 #define _USE_MATH_DEFINES
+#pragma warning(disable:4996)
 #endif
 
 #include <math.h>
